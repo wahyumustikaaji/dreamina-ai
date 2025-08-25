@@ -67,7 +67,7 @@ export default function CreateDesign() {
 
     
     return (
-        <section className="py-32 w-full">
+        <section className="py-32 w-full container mx-auto">
             <div>
                 <div className="max-w-[1270px] container mx-auto">
                     <h1 className="text-[#EBF8FF] font-medium text-5xl leading-14">Create your design, whatever your <br />purpose</h1>

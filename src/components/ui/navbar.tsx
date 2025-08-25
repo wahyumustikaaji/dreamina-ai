@@ -17,16 +17,16 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  return (
-    <nav className="container mx-auto w-full">
+  return ( 
+    <nav className="w-full">
       <div
-        className={`w-full fixed top-0 z-10 p-6 transition-colors duration-300 ${
+        className={`w-full fixed top-0 left-0 z-20 p-6 transition-colors duration-300 ${
           isScrolled
             ? "bg-black/30 backdrop-blur-md"
             : "bg-transparent"
         }`}
       >
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between container mx-auto">
           <div className="flex items-center gap-8">
             <Image
               src="/assets/images/logo/logo.svg"
